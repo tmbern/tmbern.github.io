@@ -9,14 +9,14 @@ On February 2, 2020, the Kansas City Chiefs accomplished the crowning achievemen
 
 With that kind of money being put up against the sportsbooks, is it possible to beat the bookies and get a piece? I wanted to see if there was any low hanging fruit that one could find value in when choosing which side of a spread or total score bet in the NFL. In order to keep this analysis as simple as possible I isolated it to a few key indicators to look at:
 
-*Win % for betting only favorites against the spread
-*Win % for betting only underdogs against the spread
-*Win % for betting only road favorites against the spread
-*Win % for betting only road underdogs against the spread
-*Win % for betting only home favorites against the spread
-*Win % for betting only home underdogs against the spread
-*Win % for betting only over on totals
-*Win % for betting only under on totals
+* Win % for betting only favorites against the spread
+* Win % for betting only underdogs against the spread
+* Win % for betting only road favorites against the spread
+* Win % for betting only road underdogs against the spread
+* Win % for betting only home favorites against the spread
+* Win % for betting only home underdogs against the spread
+* Win % for betting only over on totals
+* Win % for betting only under on totals
 
 The question I wanted to answer was: **would betting only on any othe above groups thru the course of a season would result in a positive outcome**? Was there any inherent value in betting favorites that are on the road vs betting home underdogs? This was the most simplistic approach to see if there was something that bookmakers maybe overvalued or overlooked. My initial thought was that there would be some type of value that could be found, even if it was small. Another assumption that was made was that you were getting the same odds regardless of the side you took. I know this isn’t always the case but, for simplicities sake and to make the least amount of assumptions that is what I did in this analysis.
 
