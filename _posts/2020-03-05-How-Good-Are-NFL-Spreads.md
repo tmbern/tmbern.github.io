@@ -28,7 +28,7 @@ The dataset that I used was used from  [Australia Sports Betting](http://www.aus
 
 After digging into the data there are a couple of findings that stood out. Road underdogs outperformed the 52.3% benchmark in 9 out of the 14 years. This was the top performing group over the fourteen-season span. Not only were they the top performing group, they outperformed the benchmark more than 2x the amount than the next closest group – home underdogs. The worst performance would have just been to just bet favorites over the course the span, as that group failed to beat the breakeven benchmark in every season since 2006.
 
-PUT AN IMAGE OF GROUPS GRAPH HERE
+![Groups win % against the spread by season](https://github.com/tmbern/tmbern.github.io/blob/master/img/win_percentage_by_season.png)
 
 
 Would betting the underdogs – home or away – be a good strategy? In the short term that might seem like a good strategy. Afterall road dogs did outperform the benchmark more than half the time, right? Well, running with the dogs appears to level off in the long run. Over the course of fourteen seasons only betting road underdogs would have resulted in beating the breakeven by a mere 15 basis points. No other group over that span came within a full percentage of the breakeven point.  Sportsbooks appear to be proficient at setting a spread for a given game. It won’t be as easy as only betting a certain group if you want to come out on top.
