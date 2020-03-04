@@ -24,7 +24,7 @@ Can we beat the sports books just by finding some undervalued sides of a spread 
 
 The dataset that I used was used from  [Australia Sports Betting](http://www.aussportsbetting.com/data/historical-nfl-results-and-odds-data/). This included all NFL games from 2006-2020. The first thing that I wanted to look at was betting against the spread. Using the groups mentioned above and looking at how each group performed against the spread would give me some insight into if there was some value to be had by betting certain groups. With the 52.3% as our benchmark lets see how well these groups performed against the spread year over year.
 
-####Bet The Underdogs
+#### Bet The Underdogs
 
 After digging into the data there are a couple of findings that stood out. Road underdogs outperformed the 52.3% benchmark in 9 out of the 14 years. This was the top performing group over the fourteen-season span. Not only were they the top performing group, they outperformed the benchmark more than 2x the amount than the next closest group – home underdogs. The worst performance would have just been to just bet favorites over the course the span, as that group failed to beat the breakeven benchmark in every season since 2006.
 
