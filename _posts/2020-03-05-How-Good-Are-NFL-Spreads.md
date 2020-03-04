@@ -28,7 +28,7 @@ The dataset that I used was used from  [Australia Sports Betting](http://www.aus
 
 After digging into the data there are a couple of findings that stood out. Road underdogs outperformed the 52.3% benchmark in 9 out of the 14 years. This was the top performing group over the fourteen-season span. Not only were they the top performing group, they outperformed the benchmark more than 2x the amount than the next closest group – home underdogs. The worst performance would have just been to just bet favorites over the course the span, as that group failed to beat the breakeven benchmark in every season since 2006.
 
-![Groups win % against the spread by season](https://github.com/tmbern/tmbern.github.io/blob/master/img/win_percentage_by_season.png)
+![Groups win % against the spread by season](https://github.com/tmbern/tmbern.github.io/blob/master/img/win_percentage_by_season.png){: .center-block :}
 
 
 Would betting the underdogs – home or away – be a good strategy? In the short term that might seem like a good strategy. Afterall road dogs did outperform the benchmark more than half the time, right? Well, running with the dogs appears to level off in the long run. Over the course of fourteen seasons only betting road underdogs would have resulted in beating the breakeven by a mere 15 basis points. No other group over that span came within a full percentage of the breakeven point.  Sportsbooks appear to be proficient at setting a spread for a given game. It won’t be as easy as only betting a certain group if you want to come out on top.
@@ -36,3 +36,26 @@ Would betting the underdogs – home or away – be a good strategy? In the shor
 | Group | road underdog % | break even % | home underdog % | underdog % | road favorite % | home favorite % | favorite % | push % | 
 | :------ |:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Mean | 52.48% | 52.3% | 50.96% | 50.48% | 49.04% | 47.52% | 46.68% | 2.84% |
+
+#### Take the over!!
+
+What about score totals? With score totals sports books set a total that would be the combined total of the two teams. You then can take either side of that total, betting that the combined score would be over, or under the total set by the bookmakers. Is there some value to be found in betting certain overs? In the words of Dan ‘Big Cat’ Katz, “[Life’s too short to bet the under](https://twitter.com/barstoolbigcat/status/1018519944584220679?lang=en)”! Let’s find out if there is value in following this wise man’s advice!
+
+In the table below we see that by simply betting the over during a season we would have surpassed the 52.3% breakeven mark in only three of the fourteen seasons. Betting the under we would have finished above breakeven in three of the past fourteen seasons. So it's definitely more fun to be the over, especially when it would have beat the benchmark the same amount!
+
+| Season | Over Hits% | Under Hits% |                                    | Season | Over Hits% | Under Hits% |
+| :------ |:--- | :--- |                                                 | :------ |:--- | :--- |
+| Season 2010-2011 | 55.06% | 43.82% |                                   | Season 2017-2018 | 46.82% | 53.18% |
+| Season 2016-2017 | 53.18% | 46.07% |                                   | Season 2018-2019 | 46.44% | 52.43% |
+| Season 2007-2008 | 52.81% | 45.32% |                                   | Season 2014-2015 | 46.44% | 52.43% | 
+| Season 2013-2014 | 50.19% | 47.57% |                                   | Season 2015-2016 | 46.44% | 51.69% |
+| Season 2019-2020 | 49.44% | 49.81% |                                   | Season 2009-2010 | 47.19% | 51.69% |  
+| Season 2011-2012 | 49.44% | 49.44% |                                   | Season 2019-2020 | 49.44% | 49.81% |
+| Season 2012-2013 | 49.06% | 49.44% |                                   | Season 2012-2013 | 49.06% | 49.44% |
+| Season 2006-2007 | 48.31% | 47.94% |                                   | Season 2011-2012 | 49.44% | 49.44% |
+| Season 2008-2009 | 47.94% | 49.06% |                                   | Season 2008-2009 | 47.94% | 49.06% |
+| Season 2009-2010 | 47.91% | 51.69% |                                   | Season 2006-2007 | 48.31% | 47.94% |
+| Season 2017-2018 | 46.82% | 53.18% |                                   | Season 2013-2014 | 50.19% | 47.57% |
+| Season 2018-2019 | 46.44% | 52.43% |                                   | Season 2016-2017 | 53.18% | 46.07% |
+| Season 2015-2016 | 46.44% | 51.69% |                                   | Season 2007-2008 | 52.81% | 45.32% |
+| Season 2014-2013 | 46.44% | 52.43% |                                   | Season 2010-2011 | 55.06% | 43.82% |
