@@ -28,7 +28,7 @@ The dataset that I used was used from  [Australia Sports Betting](http://www.aus
 
 After digging into the data there are a couple of findings that stood out. Road underdogs outperformed the 52.3% benchmark in 9 out of the 14 years. This was the top performing group over the fourteen-season span. Not only were they the top performing group, they outperformed the benchmark more than 2x the amount than the next closest group – home underdogs. The worst performance would have just been to just bet favorites over the course the span, as that group failed to beat the breakeven benchmark in every season since 2006.
 
-![Groups win % against the spread by season](https://github.com/tmbern/tmbern.github.io/blob/master/img/win_percentage_by_season.png){: .center-block :}
+![Groups win % against the spread by season](/img/win_percentage_by_season.png){: .center-block :}
 
 
 Would betting the underdogs – home or away – be a good strategy? In the short term that might seem like a good strategy. Afterall road dogs did outperform the benchmark more than half the time, right? Well, running with the dogs appears to level off in the long run. Over the course of fourteen seasons only betting road underdogs would have resulted in beating the breakeven by a mere 15 basis points. No other group over that span came within a full percentage of the breakeven point.  Sportsbooks appear to be proficient at setting a spread for a given game. It won’t be as easy as only betting a certain group if you want to come out on top.
@@ -87,14 +87,14 @@ In the table below we see that by simply betting the over during a season we wou
 
 Alright, so bookies are very good at setting these spreads and totals it seems. One last thing I wanted to look at was if there were any specific point totals that bookies frequently set that we could find some inherent value. First, I looked at the frequency at which bookies set a total and compared that with the frequency at which the total of the actual outcome occurred.
 
-![Frequency of book makers set line with frequency of actual total score](https://github.com/tmbern/tmbern.github.io/blob/master/img/frequency_of_bookies_totals_vs_actual_score_totals.png)
+![Frequency of book makers set line with frequency of actual total score](/img/frequency_of_bookies_totals_vs_actual_score_totals.png)
 
 Sportsbooks most frequent totals that they set were: 43.5, 43, 41, and 45 respectively. While the most frequent actual total outcome of games played were: 44, 41, 51, and 37 respectively. Just by using the eyeball test those are very close! The most common occurrence of 43.5 for the bookies compared to 44 for actual outcomes! Very tight lines! But in looking at the graph you can see that there are some actual final scores that are occurring much more frequently when compared to the amount of times bookmakers are setting a line with that same total. At first glance this would indicate that there are specific point totals that bookies are setting that maybe we can find some hidden value!
 
-![% that a given set total hits the over compared to frequency that bookmakers set that total](https://github.com/tmbern/tmbern.github.io/blob/master/img/frequency_of_totals_vs_%25_that_point_hits_the_over.png)
+![% that a given set total hits the over compared to frequency that bookmakers set that total](/img/frequency_of_totals_vs_%25_that_point_hits_the_over.png)
 
 #### Magic Numbers
 
 Always bet the over when you see a bookmaker set a line at 40.5! The most common line that bookmakers set that had the highest over percentage was 40.5 at a whopping 62.9%! That is a big margin considering you only need to hit 52.3% to break even! This line was set 116 over our 14 span season. Not the most frequent set line but by no means was it a rare occurrence to see that line. In fact, it was the 14th most common line out of the 91 unique point totals that sports books set. There are a few other games that hit that were of note as well. There were 26 unique totals set that all had an over hit % that was greater than the breakeven benchmark. Most are not common occurrences... but if you ever do happen to catch a bookie set those lines, remember to always, always bet the over!!
 
-![scores that had an over % that beat the breakeven benchmark](https://github.com/tmbern/tmbern.github.io/blob/master/img/percentage_of_time_over_hits_on_a_given_vegas_line.PNG)
+![scores that had an over % that beat the breakeven benchmark](/img/percentage_of_time_over_hits_on_a_given_vegas_line.PNG)
