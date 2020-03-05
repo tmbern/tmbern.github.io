@@ -49,9 +49,9 @@ In the table below we see that by simply betting the over during a season we wou
 
 | Season | Over Hits% | Under Hits% |
 | :------ |:--- | :--- |
-| Season 2010-2011 | 55.06% | 43.82% |
-| Season 2016-2017 | 53.18% | 46.07% |
-| Season 2007-2008 | 52.81% | 45.32% | 
+| Season 2010-2011 | **55.06%** | 43.82% |
+| Season 2016-2017 | **53.18%** | 46.07% |
+| Season 2007-2008 | **52.81%** | 45.32% | 
 | Season 2013-2014 | 50.19% | 47.57% |
 | Season 2019-2020 | 49.44% | 49.81% |  
 | Season 2011-2012 | 49.44% | 49.44% |
@@ -68,9 +68,9 @@ In the table below we see that by simply betting the over during a season we wou
 
 | Season | Over Hits% | Under Hits% |
 | :------ |:--- | :--- |
-| Season 2017-2018 | 46.82% | 53.18% |
-| Season 2018-2019 | 46.44% | 52.43% |
-| Season 2014-2015 | 46.44% | 52.43% | 
+| Season 2017-2018 | 46.82% | **53.18%** |
+| Season 2018-2019 | 46.44% | **52.43%** |
+| Season 2014-2015 | 46.44% | **52.43%** | 
 | Season 2015-2016 | 46.44% | 51.69% |
 | Season 2009-2010 | 47.19% | 51.69% |  
 | Season 2019-2020 | 49.44% | 49.81% |
