@@ -43,19 +43,44 @@ What about score totals? With score totals sports books set a total that would b
 
 In the table below we see that by simply betting the over during a season we would have surpassed the 52.3% breakeven mark in only three of the fourteen seasons. Betting the under we would have finished above breakeven in three of the past fourteen seasons. So it's definitely more fun to be the over, especially when it would have beat the benchmark the same amount!
 
-| Season | Over Hits% | Under Hits% |                                    | Season | Over Hits% | Under Hits% |
-| :------ |:--- | :--- |                                                 | :------ |:--- | :--- |
-| Season 2010-2011 | 55.06% | 43.82% |                                   | Season 2017-2018 | 46.82% | 53.18% |
-| Season 2016-2017 | 53.18% | 46.07% |                                   | Season 2018-2019 | 46.44% | 52.43% |
-| Season 2007-2008 | 52.81% | 45.32% |                                   | Season 2014-2015 | 46.44% | 52.43% | 
-| Season 2013-2014 | 50.19% | 47.57% |                                   | Season 2015-2016 | 46.44% | 51.69% |
-| Season 2019-2020 | 49.44% | 49.81% |                                   | Season 2009-2010 | 47.19% | 51.69% |  
-| Season 2011-2012 | 49.44% | 49.44% |                                   | Season 2019-2020 | 49.44% | 49.81% |
-| Season 2012-2013 | 49.06% | 49.44% |                                   | Season 2012-2013 | 49.06% | 49.44% |
-| Season 2006-2007 | 48.31% | 47.94% |                                   | Season 2011-2012 | 49.44% | 49.44% |
-| Season 2008-2009 | 47.94% | 49.06% |                                   | Season 2008-2009 | 47.94% | 49.06% |
-| Season 2009-2010 | 47.91% | 51.69% |                                   | Season 2006-2007 | 48.31% | 47.94% |
-| Season 2017-2018 | 46.82% | 53.18% |                                   | Season 2013-2014 | 50.19% | 47.57% |
-| Season 2018-2019 | 46.44% | 52.43% |                                   | Season 2016-2017 | 53.18% | 46.07% |
-| Season 2015-2016 | 46.44% | 51.69% |                                   | Season 2007-2008 | 52.81% | 45.32% |
-| Season 2014-2013 | 46.44% | 52.43% |                                   | Season 2010-2011 | 55.06% | 43.82% |
+<table>
+<tr><th>Hit % sorted by hightest over% </th><th>Hit % sorted by hightest under%</th></tr>
+<tr><td>
+
+| Season | Over Hits% | Under Hits% |
+| :------ |:--- | :--- |
+| Season 2010-2011 | 55.06% | 43.82% |
+| Season 2016-2017 | 53.18% | 46.07% |
+| Season 2007-2008 | 52.81% | 45.32% | 
+| Season 2013-2014 | 50.19% | 47.57% |
+| Season 2019-2020 | 49.44% | 49.81% |  
+| Season 2011-2012 | 49.44% | 49.44% |
+| Season 2012-2013 | 49.06% | 49.44% |
+| Season 2006-2007 | 48.31% | 47.94% |
+| Season 2008-2009 | 47.94% | 49.06% |
+| Season 2009-2010 | 47.91% | 51.69% |
+| Season 2017-2018 | 46.82% | 53.18% |
+| Season 2018-2019 | 46.44% | 52.43% |
+| Season 2015-2016 | 46.44% | 51.69% |
+| Season 2014-2013 | 46.44% | 52.43% |
+
+</td><td>
+
+| Season | Over Hits% | Under Hits% |
+| :------ |:--- | :--- |
+| Season 2017-2018 | 46.82% | 53.18% |
+| Season 2018-2019 | 46.44% | 52.43% |
+| Season 2014-2015 | 46.44% | 52.43% | 
+| Season 2015-2016 | 46.44% | 51.69% |
+| Season 2009-2010 | 47.19% | 51.69% |  
+| Season 2019-2020 | 49.44% | 49.81% |
+| Season 2012-2013 | 49.06% | 49.44% |
+| Season 2011-2012 | 49.44% | 49.44% |
+| Season 2008-2009 | 47.94% | 49.06% |
+| Season 2006-2007 | 48.31% | 47.94% |
+| Season 2013-2014 | 50.19% | 47.57% |
+| Season 2016-2017 | 53.18% | 46.07% |
+| Season 2007-2008 | 52.81% | 45.32% |
+| Season 2010-2011 | 55.06% | 43.82% |
+
+</td></tr> </table>
