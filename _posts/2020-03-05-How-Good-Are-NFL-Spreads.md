@@ -84,3 +84,7 @@ In the table below we see that by simply betting the over during a season we wou
 | Season 2010-2011 | 55.06% | 43.82% |
 
 </td></tr> </table>
+
+Alright, so bookies are very good at setting these spreads and totals it seems. One last thing I wanted to look at was if there were any specific point totals that bookies frequently set that we could find some inherent value. First, I looked at the frequency at which bookies set a total and compared that with the frequency at which the total of the actual outcome occurred.
+
+![Frequency of book makers set line with frequency of actual total score](https://github.com/tmbern/tmbern.github.io/blob/master/img/frequency_of_bookies_totals_vs_actual_score_totals.png)
