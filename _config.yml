@@ -68,10 +68,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: 
-  github: daattali
-  twitter: daattali
+#  email: "someone@example.com"
+# facebook: 
+  github: https://github.com/tmbern
+#  twitter: 
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -90,6 +90,7 @@ share-links-active:
   twitter: false
   facebook: false
   linkedin: false
+  github: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
