@@ -88,3 +88,7 @@ In the table below we see that by simply betting the over during a season we wou
 Alright, so bookies are very good at setting these spreads and totals it seems. One last thing I wanted to look at was if there were any specific point totals that bookies frequently set that we could find some inherent value. First, I looked at the frequency at which bookies set a total and compared that with the frequency at which the total of the actual outcome occurred.
 
 ![Frequency of book makers set line with frequency of actual total score](https://github.com/tmbern/tmbern.github.io/blob/master/img/frequency_of_bookies_totals_vs_actual_score_totals.png)
+
+Sportsbooks most frequent totals that they set were: 43.5, 43, 41, and 45 respectively. While the most frequent actual total outcome of games played were: 44, 41, 51, and 37 respectively. Just by using the eyeball test those are very close! The most common occurrence of 43.5 for the bookies compared to 44 for actual outcomes! Very tight lines! But in looking at the graph you can see that there are some actual final scores that are occurring much more frequently when compared to the amount of times bookmakers are setting a line with that same total. At first glance this would indicate that there are specific point totals that bookies are setting that maybe we can find some hidden value!
+
+![% that a given set total hits the over compared to frequency that bookmakers set that total](https://github.com/tmbern/tmbern.github.io/blob/master/img/frequency_of_totals_vs_%25_that_point_hits_the_over.png)
