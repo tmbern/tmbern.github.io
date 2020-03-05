@@ -3,7 +3,7 @@ layout: post
 title: How Good are NFL Spreads and Totals?
 subtitle: Is there an easy answer to beating your bookie?
 tags: [sports betting, vegas, NFL, Football, sports]
-bigimg:/img/Football.png
+bigimg:https://github.com/tmbern/tmbern.github.io/blob/master/img/Football.png
 comments: true
 ---
 On February 2, 2020, the Kansas City Chiefs accomplished the crowning achievement in the NFL, they became Super Bowl Champions! But Kansas City wasn’t the only big winner that night. In fact, maybe the biggest winners were Nevada sportsbooks. Nevada Gaming reports showed that sportsbooks pocketed **$18.7** million of profit on **$154** million of wagers on the Super Bowl! This was Nevada sportsbooks best return since the Seahawks took the crown back in 2014. This was also the second most bet Super Bowl that Nevada sportsbooks had seen. _$154 million wagered_!
