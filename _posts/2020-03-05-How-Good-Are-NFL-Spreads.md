@@ -3,6 +3,7 @@ layout: post
 title: How Good are NFL Spreads and Totals?
 subtitle: Is there an easy answer to beating your bookie?
 tags: [sports betting, vegas, NFL, Football, sports]
+image: https://github.com/tmbern/tmbern.github.io/blob/master/img/Football.png
 comments: true
 ---
 On February 2, 2020, the Kansas City Chiefs accomplished the crowning achievement in the NFL, they became Super Bowl Champions! But Kansas City wasn’t the only big winner that night. In fact, maybe the biggest winners were Nevada sportsbooks. Nevada Gaming reports showed that sportsbooks pocketed **$18.7** million of profit on **$154** million of wagers on the Super Bowl! This was Nevada sportsbooks best return since the Seahawks took the crown back in 2014. This was also the second most bet Super Bowl that Nevada sportsbooks had seen. _$154 million wagered_!
@@ -36,6 +37,7 @@ Would betting the underdogs – home or away – be a good strategy? In the shor
 | Group | road underdog % | break even % | home underdog % | underdog % | road favorite % | home favorite % | favorite % | push % | 
 | :------ |:--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Mean | 52.48% | 52.3% | 50.96% | 50.48% | 49.04% | 47.52% | 46.68% | 2.84% |
+
 
 #### Take the over!!
 
@@ -92,6 +94,7 @@ Alright, so bookies are very good at setting these spreads and totals it seems. 
 Sportsbooks most frequent totals that they set were: 43.5, 43, 41, and 45 respectively. While the most frequent actual total outcome of games played were: 44, 41, 51, and 37 respectively. Just by using the eyeball test those are very close! The most common occurrence of 43.5 for the bookies compared to 44 for actual outcomes! Very tight lines! But in looking at the graph you can see that there are some actual final scores that are occurring much more frequently when compared to the amount of times bookmakers are setting a line with that same total. At first glance this would indicate that there are specific point totals that bookies are setting that maybe we can find some hidden value!
 
 ![% that a given set total hits the over compared to frequency that bookmakers set that total](/img/frequency_of_totals_vs_%25_that_point_hits_the_over.png)
+
 
 #### Magic Numbers
 
