@@ -1,1 +1,7 @@
-
+---
+layout: post
+title: Bayes Classifier
+subtitle: Building a Bayes Classifier in Pure Python
+tags: [Python, Probability, Classificiation]
+comments: true
+---
