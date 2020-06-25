@@ -189,6 +189,7 @@ In this method we are also getting the frequency that each target class occurs. 
 
 In order to fit the model to the data we need to calculate the mean and the standard deviation of each feature in the dataset for each class. That is all there is to the fit function. If our data set had three features, A, B, C; and it had two target classes 0, and 1; then we would need the mean and std for each target class by feature. THis would leave us a table looking somehting like this:
 
+
 | Target | Feature | Mean | Standard Dev | 
 | :------ |:--- | :--- | :--- |
 | 0 | A | \mu | \sigma |
