@@ -246,3 +246,13 @@ Where $$ \chi $$ is the feature from X, $$ \mu $$ is the feature mean from a spe
 
 We use the probability density function to get the probability that an observation would belong to a specific target class. the predicted probabilities are then compared for each class, and the class that shows the highest probability is the class that we would assign as the predicted class for that observation. 
 
+### Predict
+
+    def predict(self, X):
+                '''Get the predicted class for each target x in the given X dataset'''
+                y_pred = [self.predicted_probabilities(x) for x in X]
+                
+the predict method simply uses the predicted probabilites method to calculate the predicted class for each observation that is passed to it. 
+
+
+                return y_pred
