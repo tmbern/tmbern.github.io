@@ -254,4 +254,7 @@ We use the probability density function to get the probability that an observati
                 
                 return y_pred
 
-the predict method simply uses the predicted probabilites method to calculate the predicted class for each observation that is passed to it. 
+The predict method simply uses the predicted probabilites method to calculate the predicted class for each observation that is passed to it. 
+
+
+To see how this class implementation performed against sklearn GaussianNB() algorithm, visit the [repo](https://github.com/tmbern/CS-Data-Science-Build-Week-1) and run the Bayes_test.py file.
