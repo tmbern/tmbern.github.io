@@ -167,4 +167,26 @@ There are two main methods that this class will use: fit, and predict. The seper
  
 This method takes an input of two arrays; 1) the features that we want to use to predict the target class, and 2) the target class for each observation, and returns a subseted dictionary where the keys of the dictionary are the unique target classes from the target array, and the values is a list of observations from the feature arrays, that correspond to the given target class. By having the observations separated by class type will allow us to get the mean and standard deviation for each feature in our dataset. This is the information that we will need in order to calculate the probability that a given feature occurs given a specific class. 
 In this method we are also getting the frequency that each target class occurs. This is saved as an attribute that we can call later when calculating the probability. 
- 
+
+### Fit
+
+        def fit(self, X, y):
+            '''fit function. Fit the function to the training set.
+            takes in an X feature array, and a y Target vector. 
+            '''
+
+            # to fit the data we need to get the means and the standard deviations for 
+            # each class. Will call the separate_classes method to get the unique feature
+            # arrays for each class. Then we will get the means and standard deviations
+            # for each feature by class. 
+            subsetted_X = self.separate_classes(X, y)
+
+            self.class_means = {}
+            self.class_standard_dev = {}
+            for i in subsetted_X:
+                self.class_means[i] = subsetted_X[i].mean(axis=0)
+                self.class_standard_dev[i] = subsetted_X[i].std(axis=0)
+
+In order to fit the model to the data we need to calculate the mean and the standard deviation of each feature in the dataset for each class. That is all there is to the fit function. If our data set had three features, A, B, C; and it had two target classes 1, and 0; then we would need the mean and std for each target class by feature. THis would leave us a table looking somehting like this:
+
+
