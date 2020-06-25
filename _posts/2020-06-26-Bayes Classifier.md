@@ -252,7 +252,6 @@ We use the probability density function to get the probability that an observati
                 '''Get the predicted class for each target x in the given X dataset'''
                 y_pred = [self.predicted_probabilities(x) for x in X]
                 
-the predict method simply uses the predicted probabilites method to calculate the predicted class for each observation that is passed to it. 
-
-
                 return y_pred
+
+the predict method simply uses the predicted probabilites method to calculate the predicted class for each observation that is passed to it. 
