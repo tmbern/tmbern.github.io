@@ -7,6 +7,8 @@ comments: true
 ---
 
 A quick intro to what the Naive Bayes Classifier is. Naive Bayes classifiers are simplistic classifiers that are used to predict or assign a class label to a dataset. The probability is derived from applying Bayes' theorem
+
+
 \begin{equation}
 \label{eq:bayes}
 P(\theta|\textbf{D}) = P(\theta ) \frac{P(\textbf{D} |\theta)}{P(\textbf{D})} ~~~~~|| I,
