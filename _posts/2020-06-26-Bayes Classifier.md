@@ -128,4 +128,42 @@ class BayesClassifier:
         ```
 
 ## Breakdown
+There are two main methods that this class will use: fit, and predict. The seperate_classes, probability_density_func, and the predicited_probabilities methods are helper functions that I felt helped make the code a little easier to read, rather than combining them in the fit and predict methods. 
 
+### separate_classes
+```
+def separate_classes(self, X, y):
+        '''
+        Takes the feature and target arrays, and seperates them in to
+        a subsets of data by the unique classes. This is a helper function
+        That will be used in the fit method of the class. 
+        '''
+       
+        self.X = X
+        self.y = y
+        self.classes = np.unique(y)
+        
+        # we need the frequencies of the classes.
+        # these frequencies will be used in the predicting the 
+        # target class of an unobserved datapoint.
+        class_type, num_of_class = np.unique(y, return_counts=True)
+        self.class_counts = dict(zip(class_type, num_of_class))
+        self.class_frequencies = {}
+        # frequencies currently is just the total count. We want the proportions. 
+        for key, value in self.class_counts.items():
+            self.class_frequencies[key] = self.class_counts[key]/sum(self.class_counts.values())
+        
+        # need to be able to get a subset of arrays by class type. 
+        # we will store these in a dictionary. The keys being the class type
+        # and the values will be each feature array that has the class as its corresponding target
+        
+        class_indexes = {}
+        subsets = {}
+        for i in set(y):
+            class_indexes[i] = np.argwhere(y==i)
+            subsets[i] = X[class_indexes[i]]
+        
+        return subsets
+        ```
+ this method takes an input of two arrays; 1) the features that we want to use to predict the target class, and 2) the target class for each observation, and returns a subseted dictionary where the keys of the dictionary are the unique target classes from the target array, and the values is a list of observations from the feature arrays, that correspond to the given target class. 
+ 
