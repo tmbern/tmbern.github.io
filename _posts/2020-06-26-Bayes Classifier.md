@@ -26,7 +26,8 @@ Now that we have a bit of an intuition regarding what bayes theorem is, we want 
 
 ## The Full Class:
 
-```class BayesClassifier:
+```
+class BayesClassifier:
     '''BayesClassifer takes in a numpy array like list
     of a X: featurs and y: target. 
     
@@ -123,4 +124,8 @@ Now that we have a bit of an intuition regarding what bayes theorem is, we want 
         '''Get the predicted class for each target x in the given X dataset'''
         y_pred = [self.predicted_probabilities(x) for x in X]
         
-        return y_pred```
+        return y_pred
+        ```
+
+## Breakdown
+
