@@ -242,5 +242,7 @@ The probability density function that I have chosen to use is the Gaussain Naive
 
 $$ \frac{1}{\sigma\sqrt{2\pi}}e^{\frac{1}{2}\left(\frac{\chi-\mu}{\sigma}\right)^{2}} $$
 
--\frac{1}{2}
-8^{\frac{1}{3}}
+Where \chi is the feature from X, \mu is the feature mean from a specified class, and \sigma is the feature standard deviation for a specified class.
+
+We use the probability density function to get the probability that an observation would belong to a specific target class. the predicted probabilities are then compared for each class, and the class that shows the highest probability is the class that we would assign as the predicted class for that observation. 
+
