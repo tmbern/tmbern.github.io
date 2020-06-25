@@ -165,5 +165,6 @@ def separate_classes(self, X, y):
         
         return subsets
         ```
- this method takes an input of two arrays; 1) the features that we want to use to predict the target class, and 2) the target class for each observation, and returns a subseted dictionary where the keys of the dictionary are the unique target classes from the target array, and the values is a list of observations from the feature arrays, that correspond to the given target class. 
+This method takes an input of two arrays; 1) the features that we want to use to predict the target class, and 2) the target class for each observation, and returns a subseted dictionary where the keys of the dictionary are the unique target classes from the target array, and the values is a list of observations from the feature arrays, that correspond to the given target class. By having the observations separated by class type will allow us to get the mean and standard deviation for each feature in our dataset. This is the information that we will need in order to calculate the probability that a given feature occurs given a specific class. 
+In this method we are also getting the frequency that each target class occurs. This is saved as an attribute that we can call later when calculating the probability. 
  
