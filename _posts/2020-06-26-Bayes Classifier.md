@@ -200,3 +200,44 @@ In order to fit the model to the data we need to calculate the mean and the stan
 | 1 | C | $$ \mu $$ | $$ \sigma $$ |
 
 Knowing the mean and the standard deviation for each feature by each class is what we will need to make our predictions. 
+
+
+### probability_density_func and predicted_probabilities
+
+        def probability_density_func(self, class_index, x):
+            '''
+            HT https://en.wikipedia.org/wiki/Gaussian_function
+
+            Use the probability function to calculate the relative liklihood that a value
+            of our random variable 'x' would equal our sample.
+
+
+            '''
+
+            class_mean = self.class_means[class_index]
+            class_stdev = self.class_standard_dev[class_index]
+
+            exponent = np.exp(-((x - class_mean)**2 / (2 * class_stdev**2)))
+            base = 1 / (class_stdev * np.sqrt(2 * np.pi))
+            return (base * exponent)
+            
+            
+                    def predicted_probabilities(self, x):
+            '''Get a list with the probabilities for each class and return the class
+            with the highest probablity. This will make our output a class, not a probability'''
+
+            pred_probabilites = []
+
+            for idx, cls in enumerate(self.classes):
+                cls_frequency = np.log(self.class_frequencies[cls])
+                pred_proba = np.sum(np.log(self.probability_density_func(idx, x)))
+                pred_proba = pred_proba + cls_frequency
+                pred_probabilites.append(pred_proba)
+
+            return self.classes[np.argmax(pred_probabilites)]
+            
+These two methods are what we use to get the probability that a given observation would belong to a specific target class. 
+
+The probability density function that I have chosen to use is the Gaussain Naive Bayes [probability density function](https://en.wikipedia.org/wiki/Normal_distribution)
+
+$$ \frac{1}{\sigma*\sqrt{2*\pi}} $$
