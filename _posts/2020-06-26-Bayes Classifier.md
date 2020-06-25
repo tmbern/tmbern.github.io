@@ -240,6 +240,6 @@ These two methods are what we use to get the probability that a given observatio
 
 The probability density function that I have chosen to use is the Gaussain Naive Bayes [probability density function](https://en.wikipedia.org/wiki/Normal_distribution)
 
-$$ \frac{1}{\sigma\sqrt{2\pi}}{e^{1} $$
+$$ \frac{1}{\sigma\sqrt{2\pi}}{e^{1}} $$
 
 \frac{1}{2}
