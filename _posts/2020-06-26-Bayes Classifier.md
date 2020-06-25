@@ -192,9 +192,9 @@ In order to fit the model to the data we need to calculate the mean and the stan
 
 | Target | Feature | Mean | Standard Dev | 
 | :------ |:--- | :--- | :--- |
-| 0 | A | \mu | \sigma |
-| 0 | B | \mu | \sigma |
-| 0 | C | \mu | \sigma |
-| 1 | A | \mu | \sigma |
-| 1 | B | \mu | \sigma |
-| 1 | C | \mu | \sigma |
+| 0 | A | $$ \mu $$ | $$ \sigma $$ |
+| 0 | B | $$ \mu $$ | $$ \sigma $$ |
+| 0 | C | $$ \mu $$ | $$ \sigma $$ |
+| 1 | A | $$ \mu $$ | $$ \sigma $$ |
+| 1 | B | $$ \mu $$ | $$ \sigma $$ |
+| 1 | C | $$ \mu $$ | $$ \sigma $$ |
